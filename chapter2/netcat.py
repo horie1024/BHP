@@ -53,7 +53,7 @@ def main():
                 sys.argv[1:],
                 "hle:t:p:cu:",
                 {"help", "listen", "execute=", "target=",
-                 "port", "command", "upload="})
+                 "port=", "command", "upload="})
 
     except getopt.GetoptError as err:
         print str(err)
